@@ -1,42 +1,13 @@
 # Research Market
 
 
- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  **Competitor**     **Business Summary**           **AI & **Web/Service        **Threat         **Ease of Use**   **Security &         **Pricing Model       **Target            **Arabic **Complexity of
-                                              Automation** Honeypots Coverage** Intelligence                       Isolation**          (qualitative)**       Audience**         Support** Use**
-                                                                                Integration**                                                                                              
-  ------------------ -------------------- ---------------- -------------------- ---------------- ----------------- -------------------- --------------------- ---------------- ----------- -----------------
-  **Attivo           Enterprise-grade      Advanced ML for Broad: HTTP/HTTPS,   Deep integration Moderate ---      Very strong ---      High cost ---         Large               None (no High --- designed
-  Networks**         deception and                behavior FTP, SSH, DBs, cloud with SIEM, SOAR, requires security enterprise-level     enterprise            enterprises,          public for mature SOC
-                     lateral movement         learning and apps.                and forensic     expertise to      segmentation and     subscription          SOCs,                 Arabic environments.
-                     defense platform        dynamic decoy                      tooling.         operate           isolation.           (qualitative).        government,        support). 
-                     with decoys,              adaptation.                                       effectively.                                                 finance.                     
-                     credential traps,                                                                                                                                                     
-                     and forensics.                                                                                                                                                        
-
-  **Beelzebub        AI-first deception    Very strong --- Service coverage:    Integrated       Moderate --- high Strong ---           Mid--High ---         Enterprise SOCs     None (no Medium ---
-  (AI-Driven         vendor focusing on         LLM/ML for HTTP, FTP, SSH,      real-time threat automation but    sandboxing and       enterprise-oriented   and security          public semi-automated;
-  Deception)**       LLM/ML-driven decoy     context-aware DB/application       intelligence     requires tuning   automated isolation  pricing.              vendors.              Arabic needs
-                     realism and               mimicry and honeypots.           feeds and        and oversight.    layers.                                                       support). configuration and
-                     autonomous                   adaptive                      attack-context                                                                                             tuning.
-                     adaptation to              responses.                      enrichment.                                                                                                
-                     attacker behavior.                                                                                                                                                    
-
-  **SecurityHive**   Cloud-based turnkey      Moderate --- Service honeypots:   Basic attack     Very high --- low Moderate --- safe    Flexible tiers ---    SMBs, schools,      None (no Low --- designed
-                     deception platform     template-based HTTP, FTP, SSH       pattern          learning curve    defaults and         SMB → Enterprise      local                 public for non-expert
-                     aimed at SMBs:         automation and (template-driven).   analytics and    and guided        recommended          (qualitative).        organizations,        Arabic operators.
-                     templates,                  heuristic                      alerting.        workflows.        segmentation.                              mid-market.        support). 
-                     dashboards, and            detection.                                                                                                                                 
-                     rapid deployment.                                                                                                                                                     
-
-  **Zerodark**       Developer-oriented   Moderate --- log Supports HTTP, FTP,  Threat-intel     High for          Moderate ---         Affordable tiered     SMBs, startups,     None (no Low --- simple
-                     honeypot platform      classification SSH via templates    enrichment and   developers ---    container/VM-based   pricing               researchers,          public and API-based
-                     offering templates,    and enrichment and API integration. correlation with API-first,        isolation typical.   (pay-as-you-grow).    developer teams.      Arabic deployment.
-                     APIs, and TI              automation.                      external feeds.  template-driven                                                                 support). 
-                     enrichment for rapid                                                        workflows.                                                                                
-                     deployment.                                                                                                                                                           
-  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+ 
+| **Competitor** | **Business Summary** | **AI & Automation** | **Web/Service Honeypots Coverage** | **Threat Intelligence Integration** | **Ease of Use** | **Security & Isolation** | **Pricing Model (qualitative)** | **Target Audience** | **Arabic Support** | **Complexity of Use** |
+|----------------|----------------------|----------------------|------------------------------------|------------------------------------|-----------------|--------------------------|----------------------------------|----------------------|--------------------|------------------------|
+| **Attivo Networks** | Enterprise-grade deception and lateral movement defense platform with decoys, credential traps, and forensics. | Advanced ML for behavior learning and dynamic decoy adaptation. | Broad: HTTP/HTTPS, FTP, SSH, DBs, cloud apps. | Deep integration with SIEM, SOAR, and forensic tooling. | Moderate — requires security expertise to operate effectively. | Very strong — enterprise-level segmentation and isolation. | High cost — enterprise subscription (qualitative). | Large enterprises, SOCs, government, finance. | None (no public Arabic support). | High — designed for mature SOC environments. |
+| **Beelzebub (AI-Driven Deception)** | AI-first deception vendor focusing on LLM/ML-driven decoy realism and autonomous adaptation to attacker behavior. | Very strong — LLM/ML for context-aware mimicry and adaptive responses. | Service coverage: HTTP, FTP, SSH, DB/application honeypots. | Integrated real-time threat intelligence feeds and attack-context enrichment. | Moderate — high automation but requires tuning and oversight. | Strong — sandboxing and automated isolation layers. | Mid–High — enterprise-oriented pricing. | Enterprise SOCs and security vendors. | None (no public Arabic support). | Medium — semi-automated; needs configuration and tuning. |
+| **SecurityHive** | Cloud-based turnkey deception platform aimed at SMBs: templates, dashboards, and rapid deployment. | Moderate — template-based automation and heuristic detection. | Service honeypots: HTTP, FTP, SSH (template-driven). | Basic attack pattern analytics and alerting. | Very high — low learning curve and guided workflows. | Moderate — safe defaults and recommended segmentation. | Flexible tiers — SMB → Enterprise (qualitative). | SMBs, schools, local organizations, mid-market. | None (no public Arabic support). | Low — designed for non-expert operators. |
+| **Zerodark** | Developer-oriented honeypot platform offering templates, APIs, and TI enrichment for rapid deployment. | Moderate — log classification and enrichment automation. | Supports HTTP, FTP, SSH via templates and API integration. | Threat-intel enrichment and correlation with external feeds. | High for developers — API-first, template-driven workflows. | Moderate — container/VM-based isolation typical. | Affordable tiered pricing (pay-as-you-grow). | SMBs, startups, researchers, developer teams. | None (no public Arabic support). | Low — simple and API-based deployment. |
 ## Descriptions
 
 **Attivo Networks** --- An enterprise deception platform that emphasizes
