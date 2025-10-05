@@ -1,35 +1,41 @@
 # Research Market
 
 
-  ----------------------------------------------------------------------------------------------------------------------------------
-  **Competitor**     **AI &           **Web/Service        **Threat         **Pricing Model      **Arabic       **Complexity of
-                     Automation**     Honeypots Coverage** Intelligence     (qualitative)**      Support**      Use**
-                                                           Integration**                                        
-  ------------------ ---------------- -------------------- ---------------- -------------------- -------------- --------------------
-  **Attivo           Advanced ML for  Broad: HTTP/HTTPS,   Deep integration High cost ---        None (no       High --- requires
-  Networks**         behavior         FTP, SSH, DBs, cloud with SIEM, SOAR, enterprise           Arabic         advanced expertise.
-                     learning and     apps.                and forensic     subscription         UI/support).   
-                     dynamic decoy                         tooling.         (qualitative).                      
-                     adaptation.                                                                                
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  **Competitor**     **Business Summary**           **AI & **Web/Service        **Threat         **Ease of Use**   **Security &         **Pricing Model       **Target            **Arabic **Complexity of
+                                              Automation** Honeypots Coverage** Intelligence                       Isolation**          (qualitative)**       Audience**         Support** Use**
+                                                                                Integration**                                                                                              
+  ------------------ -------------------- ---------------- -------------------- ---------------- ----------------- -------------------- --------------------- ---------------- ----------- -----------------
+  **Attivo           Enterprise-grade      Advanced ML for Broad: HTTP/HTTPS,   Deep integration Moderate ---      Very strong ---      High cost ---         Large               None (no High --- designed
+  Networks**         deception and                behavior FTP, SSH, DBs, cloud with SIEM, SOAR, requires security enterprise-level     enterprise            enterprises,          public for mature SOC
+                     lateral movement         learning and apps.                and forensic     expertise to      segmentation and     subscription          SOCs,                 Arabic environments.
+                     defense platform        dynamic decoy                      tooling.         operate           isolation.           (qualitative).        government,        support). 
+                     with decoys,              adaptation.                                       effectively.                                                 finance.                     
+                     credential traps,                                                                                                                                                     
+                     and forensics.                                                                                                                                                        
 
-  **Beelzebub        Very strong ---  Service coverage:    Integrated       Mid--High ---        None (no       Medium ---
-  (AI-Driven         LLM/ML for       HTTP, FTP, SSH,      real-time threat enterprise oriented. Arabic         semi-automated,
-  Deception)**       context-aware    DB/application       intelligence                          UI/support).   requires tuning.
-                     mimicry and      honeypots.           feeds and                                            
-                     adaptive                              attack-context                                       
-                     responses.                            enrichment.                                          
+  **Beelzebub        AI-first deception    Very strong --- Service coverage:    Integrated       Moderate --- high Strong ---           Mid--High ---         Enterprise SOCs     None (no Medium ---
+  (AI-Driven         vendor focusing on         LLM/ML for HTTP, FTP, SSH,      real-time threat automation but    sandboxing and       enterprise-oriented   and security          public semi-automated;
+  Deception)**       LLM/ML-driven decoy     context-aware DB/application       intelligence     requires tuning   automated isolation  pricing.              vendors.              Arabic needs
+                     realism and               mimicry and honeypots.           feeds and        and oversight.    layers.                                                       support). configuration and
+                     autonomous                   adaptive                      attack-context                                                                                             tuning.
+                     adaptation to              responses.                      enrichment.                                                                                                
+                     attacker behavior.                                                                                                                                                    
 
-  **SecurityHive**   Moderate ---     Service honeypots:   Basic attack     Flexible tiers ---   None (no       Low --- designed for
-                     template-based   HTTP, FTP, SSH       pattern          SMB → Enterprise     Arabic         non-experts.
-                     automation and   (template-driven).   analytics and    (qualitative).       UI/support).   
-                     heuristic                             alerting.                                            
-                     detection.                                                                                 
+  **SecurityHive**   Cloud-based turnkey      Moderate --- Service honeypots:   Basic attack     Very high --- low Moderate --- safe    Flexible tiers ---    SMBs, schools,      None (no Low --- designed
+                     deception platform     template-based HTTP, FTP, SSH       pattern          learning curve    defaults and         SMB → Enterprise      local                 public for non-expert
+                     aimed at SMBs:         automation and (template-driven).   analytics and    and guided        recommended          (qualitative).        organizations,        Arabic operators.
+                     templates,                  heuristic                      alerting.        workflows.        segmentation.                              mid-market.        support). 
+                     dashboards, and            detection.                                                                                                                                 
+                     rapid deployment.                                                                                                                                                     
 
-  **Zerodark**       Moderate ---  log Supports HTTP, FTP,  Threat-intel     Affordable tiered    None (no       Low ---
-                     classification   SSH via templates    enrichment and   pricing              Arabic         developer-friendly
-                     and enrichment   and API integration. correlation with (pay-as-you-grow).   UI/support).   deployment.
-                     automation.                           external feeds.                                      
-  ----------------------------------------------------------------------------------------------------------------------------------
+  **Zerodark**       Developer-oriented   Moderate --- log Supports HTTP, FTP,  Threat-intel     High for          Moderate ---         Affordable tiered     SMBs, startups,     None (no Low --- simple
+                     honeypot platform      classification SSH via templates    enrichment and   developers ---    container/VM-based   pricing               researchers,          public and API-based
+                     offering templates,    and enrichment and API integration. correlation with API-first,        isolation typical.   (pay-as-you-grow).    developer teams.      Arabic deployment.
+                     APIs, and TI              automation.                      external feeds.  template-driven                                                                 support). 
+                     enrichment for rapid                                                        workflows.                                                                                
+                     deployment.                                                                                                                                                           
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Descriptions
 
